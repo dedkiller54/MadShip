@@ -18,21 +18,18 @@ public class ShipMovementLR : MonoBehaviour
     void Update()
     {
 
-        
+
+        // Questo blocco di codice controlla se il tasto della freccia destra (RightArrow) è premuto dall'utente.
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            /*
-            
-            rb.AddForce(Vector3.forward * forceAmount, ForceMode.Impulse);
-            */
-           // print("Right Premuto GoggyInfame");
+            // Se il tasto della freccia destra è premuto:
+            // - Viene aggiunto un impulso (forza) all'oggetto che contiene questo script nella direzione "RightVector" utilizzando ForceMode.Impulse.
             this.transform.GetComponent<Rigidbody>().AddForce(RightVector, ForceMode.Impulse);
+
+            // - Viene attivata una specifica animazione chiamata "Right" tramite il componente Animator associato all'oggetto.
             this.transform.GetComponent<Animator>().SetTrigger("Right");
+        }
 
-
-
-    }
-            
         /*
         else
         {
@@ -40,16 +37,17 @@ public class ShipMovementLR : MonoBehaviour
         }
         */
 
+        // Questo blocco di codice verifica se il tasto della freccia sinistra (LeftArrow) è premuto dall'utente.
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            /*
-            
-            rb.AddForce(Vector3.forward * forceAmount, ForceMode.Impulse);
-            */
-           
+            // Se il tasto della freccia sinistra è premuto:
+            // - Viene aggiunto un impulso (forza) all'oggetto che contiene questo script nella direzione "LeftVector" utilizzando ForceMode.Impulse.
             this.transform.GetComponent<Rigidbody>().AddForce(LeftVector, ForceMode.Impulse);
+
+            // - Viene attivata una specifica animazione chiamata "Left" tramite il componente Animator associato all'oggetto.
             this.transform.GetComponent<Animator>().SetTrigger("Left");
         }
+
         /*
         else
         {

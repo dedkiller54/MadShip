@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 125
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Scena 0
+    - Assets/Prefab/Enemies
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -390,16 +390,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Script/Scena 0
+  - Assets/Prefab/Enemies
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\stefy\Desktop\8.0 casa\MadShip_30_TRULLA_STEFANO
+  m_LastProjectPath: C:\Users\stefy\Desktop\PortoflioGitHub\MadShip
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30610000
-    m_LastClickedID: 24880
-    m_ExpandedIDs: 00000000126100002861000000ca9a3b
+    scrollPos: {x: 0, y: 1}
+    m_SelectedIDs: 20640000
+    m_LastClickedID: 25632
+    m_ExpandedIDs: 000000001c5e00002a5e00002e5e0000345e0000385e0000e8630000f26300002064000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -427,7 +427,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012610000
+    m_ExpandedIDs: 000000001c5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006c8400009483000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 46edffff
+      m_ExpandedIDs: 32e6ffff7ce7ffff90e8ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -936,9 +936,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -82.79065, y: 194.76886, z: 4686.1943}
+    m_Target: {x: 1.1847019, y: 0.88084173, z: 4933.6455}
     speed: 2
-    m_Value: {x: -82.79065, y: 194.76886, z: 4686.1943}
+    m_Value: {x: 1.1847019, y: 0.88084173, z: 4933.6455}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -984,13 +984,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.23827136, y: -0.63066727, z: 0.21242367, w: 0.7073773}
+    m_Target: {x: 0.12701237, y: -0.8623987, z: 0.2661972, w: 0.41145572}
     speed: 2
-    m_Value: {x: 0.23826885, y: -0.63066065, z: 0.21242143, w: 0.7073699}
+    m_Value: {x: 0.12701109, y: -0.8623899, z: 0.2661945, w: 0.41145155}
   m_Size:
-    m_Target: 408.66617
+    m_Target: 4.5402575
     speed: 2
-    m_Value: 408.66617
+    m_Value: 4.5402575
   m_Ortho:
     m_Target: 0
     speed: 2
