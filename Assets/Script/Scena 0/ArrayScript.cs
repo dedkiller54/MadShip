@@ -8,7 +8,7 @@ public class ArrayScript : MonoBehaviour
 {
 
 
-    //go tony prendi i sordi
+    
     public GameObject[] asteroidsArray;
     public Transform CameraPosition;
     private float timer;
@@ -47,7 +47,7 @@ public class ArrayScript : MonoBehaviour
                     SpawnAsteroid();
                     MaxStereoid++;
                     
-                  //print("Steroidi spwanati:" + MaxStereoid);
+                  //print("Asteroidi spwanati:" + MaxStereoid);
                 }
             }
 
@@ -66,7 +66,7 @@ public class ArrayScript : MonoBehaviour
                     timer = spawnAsteroidInterval;
                     SpawnAsteroid();
                     MaxStereoid++;
-                    print("Steroidi spwanati:" + MaxStereoid);
+                    print("Asteroidi spwanati:" + MaxStereoid);
                 }
             }
 

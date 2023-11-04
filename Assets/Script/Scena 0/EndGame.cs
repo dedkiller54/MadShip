@@ -26,7 +26,7 @@ public class EndGame : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {   //questo print permette di capire con che cosa ho colpito
-      //  print(" LA NAVICELLA HA HITTATO == Collisione!!! con: " + collision.gameObject.tag);
+      //  print(" LA NAVICELLA HA Colpito == Collisione!!! con: " + collision.gameObject.tag);
 
         /*
 

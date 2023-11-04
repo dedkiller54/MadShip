@@ -20,7 +20,7 @@ public class BulletDestroyer : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {   //questo print permette di capire con che cosa ho colpito
-        print("IL MURO DISTRUTTORE DI STEROIDI HA HITTATO con: " + collision.gameObject.tag);
+        print("IL MURO DISTRUTTORE DI STEROIDI HA Colpito con: " + collision.gameObject.tag);
         print("IL DISTRUTTORRE HA DISTRUTTO: "+ collision.gameObject.tag);
 
         if (collision.transform.tag == "Steroid")

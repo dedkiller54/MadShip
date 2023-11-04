@@ -10,6 +10,7 @@ sito per prendere randomicamente un oggetto da un array, per far spawnare a caso
 
  Ricordati che ho disattivato lo script della generazione perchè tanto non worka
 
+
 NUOVI PROBLEMI
 /la gestione del livello perfect avviene nella sezione BulletShoot (guarda come ho gestito con punteggio la variabile counter così capisci come farla per perfetc
  
